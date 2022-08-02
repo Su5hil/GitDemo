@@ -22,5 +22,8 @@ public class Employee {
 	public void setLname(String lname) {
 		this.lname = lname;
 	}
+public void display(){
+System.out.println("This is display method");
+}
 	
 }
