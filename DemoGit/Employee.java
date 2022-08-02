@@ -22,8 +22,12 @@ public class Employee {
 	public void setLname(String lname) {
 		this.lname = lname;
 	}
-public void display(){
-System.out.println("This is display method");
-}
+	public void display(){
+		System.out.println("This is display method");
+	}
+	public void apiCall(){
+
+	System.out.println("Calling api");
+	}
 	
 }
